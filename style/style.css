@@ -84,6 +84,10 @@ body {
     border-radius: 2px;
     border: 1px solid #F0F0F0;
 }
+.right input:focus, .right select:focus{
+    border: 1px solid #2EC4B6;
+    outline: none;
+}
 
 .right label {
     font-weight: bold;
