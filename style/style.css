@@ -55,7 +55,9 @@ body {
     font-weight: 400;
     line-height: 25px;
 }
-
+.mobile-text{
+    display: none;
+}
 .right {
     width: 520px;
     height: 580px;
@@ -141,6 +143,12 @@ body {
     }
     .left{
         width: 100%;
+    }
+    .web-text{
+        display: none;
+    }
+    .mobile-text{
+        display: inline;
     }
     .right{
         width: 100%;
